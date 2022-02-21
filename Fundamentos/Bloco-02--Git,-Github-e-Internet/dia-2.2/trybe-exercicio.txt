@@ -2,10 +2,11 @@ O que eu vou aprender na Trybe:
 
 - Unix
 - Bash
-- Git
 - Autoliderança  
 - JavaScript
 - CSS           
 - NodeJS
 - HTML
 - Comunicação
+- Git
+- Internet
