@@ -1,0 +1,89 @@
+cat > skills2.txt
+  431  cat skills2.txt 
+  432  cat >> skills2.txt 
+  433  head -3 < skills2.txt | sort < skills2.txt > top_skills.txt
+  434  ls
+  435  cat top_skills.txt 
+  436  head -3 < skills2.txt 
+  437  head -3 < skills2.txt | sort 
+  438  head -3 < skills2.txt | sort > top_skills.txt 
+  439  cat top_skills.txt 
+  440  cat phrases2.txt
+  441  cat > phrase2.txt
+  442  grep -n < phrase2.txt | wc -l
+  443  grep -n phrase2.txt | wc -l
+  444  grepbr  -n <  phrase2.txt | wc -l
+  445  grep br  -n <  phrase2.txt | wc -l
+  446  grep br  -x <  phrase2.txt | wc -l
+  447  grep br  -n <  phrase2.txt | wc -l phrase2.txt 
+  448  grep br -n <  phrase2.txt | wc -l phrase2.txt 
+  449  grep b -n <  phrase2.txt | wc -l phrase2.txt 
+  450  grep b -n <  phrase2.txt | wc -l 
+  451  grep br -n <  phrase2.txt | wc -l
+  452  grep br -x < "prhase2.txt" | wc -l
+  453* grep br -x < "phrase2.
+  454  grep br -v < "phrase2.txt" | wc -l
+  455  cat >> phrase2.txt 
+  456  cd ..
+  457  cd dia-1.3
+  458  ls
+  459  cp countries.txt countries2.txt
+  460  ls
+  461  mv countries2.txt ../day-1.4/
+  462  mv countries2.txt ../day-1.4
+  463  ls
+  464  cd ../day-1.4
+  465  cd ../dia-1.4
+  466  ls
+  467  cd ..
+  468  ls *
+  469  ls
+  470  mv day-1.4 countries.txt
+  471  cat countries.txt 
+  472  /clear
+  473  clear
+  474  ls
+  475  mv countries.txt dia-1.4/
+  476  ls
+  477  cd dia-1.4
+  478  ls
+  479  cat phrase2.txt countries.txt >> bunch_of_things.txt
+  480  cat bunch_of_things.txt 
+  481  clear
+  482  sort < bunch_of_things.txt > bunch_of_things.txt 
+  483  cat bunch_of_things.txt 
+  484  cat phrase2.txt countries.txt > bunch_of_things.txt 
+  485  ls
+  486  cat bunch_of_things.txt 
+  487  clear
+  488  sort bunch_of_things.txt > bunch_of_things.txt 
+  489  cat bunch_of_things.txt 
+  490  cat phrase2.txt countries.txt > bunch_of_things.txt 
+  491  cat bunch_of_things.txt 
+  492  clear
+  493  cat bunch_of_things.txt 
+  494  sort < bunch_of_things.txt | cat 
+  495  sort < bunch_of_things.txt | cat >
+  496  sort < bunch_of_things.txt | cat > bunch_of_things.txt 
+  497  cat bunch_of_things.txt 
+  498  cat phrase2.txt countries.txt > bunch_of_things.txt 
+  499  cat bunch_of_things.txt 
+  500  sort < bunch_of_things.txt | cat > bunch_of_things.txt > bunch_of_things.txt 
+  501  cat bunch_of_things.txt 
+  502  cat phrase2.txt countries.txt > bunch_of_things.txt 
+  503  ;cat bunch_of_things.txt 
+  504  cat bunch_of_things.txt 
+  505  sort < bunch_> f_things.txt | cat >
+  506  sort >  bunch_of_things.txt
+  507  sort > bunch_of_things.txt
+  508  cat bunch_of_things.txt 
+  509  cat phrase2.txt countries.txt > bunch_of_things.txt 
+  510  sort < bunch_of_things.txt > opt.txt
+  511  cat opt.txt 
+  512  sort < bunch_of_things.txt > bunch_of_things.txt 
+  513  cat cbun
+  514  cat bunch_of_things.txt 
+  515  sort 'opt.txt' > bunch_of_things.txt 
+  516  cat bunch_of_things.txt 
+  517  clear
+  518  history

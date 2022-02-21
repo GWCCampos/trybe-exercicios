@@ -1,0 +1,9 @@
+chmod ugo+rw bunch_of_things.txt 
+  604  ls -l
+  605  chmod ugo-w bunch_of_things.txt 
+  606  ls
+  607  ls-l
+  608  ls -l
+  609  chmod 644 bunch_of_things.txt 
+  610  ls
+  611  ls -l

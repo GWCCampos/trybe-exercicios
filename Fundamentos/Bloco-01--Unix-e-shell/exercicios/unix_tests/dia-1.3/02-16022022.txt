@@ -1,0 +1,253 @@
+1  curl -o- https://deb.nodesource.com/setup_17.x | bash
+    2  curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+    3  sudo apt install nodejs
+    4  node --version
+    5  exit
+    6  sudo apt install libappindicator3-1
+    7  cd /tmp/
+    8  wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_1.8.1.zip
+    9  # sha1sum: fb9f0737f45f1904c648dd0e6c1cfa7ff6089aa1
+   10  unzip droidcam_latest.zip -d droidcam
+   11  cd droidcam && sudo ./install-client
+   12  apt install libappindicator3-1
+   13  exit
+   14  sudo apt install linux-headers-`uname -r` gcc make
+   15  sudo ./install-video
+   16  lsmod | grep v4l2loopback_dc
+   17  sudo ./instal-video linux-headers-`uname -r` gcc make
+   18  sudo linux-headers-`uname -r` gcc make ./install-video
+   19  sudo apt install linux-headers-`uname -r` gcc make
+   20  lsmod | grep v4l2loopback_dc
+   21  sudo apt-get install adb
+   22  sudo rmmod v4l2loopback_dc
+   23  sudo insmod /lib/modules/`uname -r`/kernel/drivers/media/video/v4l2loopback-dc.ko width=WIDTH height=HEIGHT
+   24  sudo ./install-video
+   25  sudo apt install linux-headers-`uname -r` gcc make
+   26  sudo ./install-video
+   27  sudo /install-video
+   28  sudo install-video
+   29  sudo /opt/droidcam-uninstall.
+   30  cd /tmp/
+   31  wget https://files.dev47apps.net/linux/droidcam_latest.zip
+   32  unzip droidcam_latest.zip -d droidcam && cd droidcam
+   33  suco ./install-client
+   34  sudo ./install-client
+   35  sudo ./install-video
+   36  sudo rmmod v4l2loopback_dc
+   37  sudo insmod /lib/modules/`uname -r`/kernel/drivers/media/video/v4l2loopback-dc.ko width=WIDTH height=HEIGHT
+   38  sudo insmod /lib/modules/`uname -r`/kernel/drivers/media/video/v4l2loopback-dc.ko width=1280 height=720
+   39  sudo apt-get install adb
+   40  lsmod | grep v4l2loopback_dc
+   41  exit
+   42  sudo add-apt-repository ppa:nilarimogard/webupd8
+   43  sudo apt-get update
+   44  sudo apt-get install pulseaudio-equalizer
+   45  exit
+   46  sudo alsa-oss install
+   47  sudo apt-get install linux-sound-base alsa-base alsa-utils
+   48  sudo reboot
+   49  sudo apt-get install linux-sound-base alsa-base alsa-utils
+   50  sudo apt update
+   51  sudo apt install nodejs
+   52  nodejs -v
+   53  sudo apt update && sudo apt upgrade
+   54  sudo apt install nodejs
+   55  sudo apt install npm
+   56  sudo apt-get install curl
+   57  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+   58  sudo apt-get install -y nodejs
+   59  node -v
+   60  5+5
+   61  cd documentos
+   62  cd Documentos
+   63  node ola.js
+   64  exit
+   65  sudo alsamixer
+   66  exit
+   67  sudo apt-get update 
+   68  sudo apt-get install git
+   69  git config --global user.name "Gabriel W Carvalho Campos"
+   70  git config --global user.email "gabrielwanguestel26@gmail.com"
+   71  exit
+   72  cd /
+   73  ls
+   74  home
+   75  cd home
+   76  ls
+   77  cd nimense
+   78  ls
+   79  cd imagens
+   80  cd Imagens
+   81  ls
+   82  op 'Captura de tela de 2022-02-15 15-53-16.png'
+   83  clear
+   84  cd..
+   85  cd ..
+   86  cd .. 
+   87  cd ..
+   88  ls
+   89  cd home
+   90  ls
+   91  cd nimense
+   92  ls[; ld; clear; }; ]
+   93  ls
+   94  cd Documentos
+   95  ls
+   96  ola.js
+   97  run 'ola.js'
+   98  pwd
+   99  cd.
+  100  cd .
+  101  cd ..
+  102  exit cd
+  103  cd /
+  104  ls
+  105  ls -a
+  106  cd home
+  107  ls
+  108  cd nimense
+  109  ls
+  110  ls -a
+  111  cd Documentos
+  112  ls
+  113  cat ola.js
+  114  cp ola.js ola2.js
+  115  ls
+  116  rm ola2.js
+  117  ks
+  118  ls
+  119  less ola.js
+  120  grep ola
+  121  cd /
+  122  ls
+  123  cd home
+  124  ls
+  125  nimense
+  126  ls
+  127  nimense
+  128  cd nimense
+  129  ls
+  130  mkdir apagar
+  131  ls
+  132  cd apagar
+  133  mkdir floricultura
+  134  ls
+  135  cd floricultura
+  136  ls
+  137  mk flor.txt
+  138  apropos make
+  139  aproppos text
+  140  apropos text
+  141  apropos create
+  142  ar flor.txt
+  143  cd ..
+  144  cd..
+  145  cd ..
+  146  exi
+  147  exit 
+  148  cd /
+  149  ls
+  150  cd home
+  151  cd nimense
+  152  ls
+  153  cd documentos
+  154  cd -i documentos
+  155  cd Documentos
+  156  ls
+  157  mkdir Exercícios
+  158  ls
+  159  cd Exercícios
+  160  touch trybe.txt
+  161  cd ..
+  162  rm -rf Exercícios
+  163  ls
+  164  mkdir unix_texts
+  165  cd unix_texts
+  166  touch trybe.txt
+  167  ls
+  168  trybe.txt tribo.txt
+  169  cp trybe.txt trybe_backup.txt
+  170  ls
+  171  exit
+  172  git --version
+  173  CD/
+  174  cd /
+  175  cd home
+  176  cd nimense
+  177  ls
+  178  cd Documentos
+  179  ls
+  180  rm -r unix_texts/
+  181  ls
+  182  mkdir Trybe
+  183  cd Trybe/
+  184  mkdir Bloco-01
+  185  cd Bloco-01
+  186  mkdir exercicios
+  187  cd exercicios/
+  188  mkdir dia-1.3
+  189  ls
+  190  cd dia-1.3
+  191  mkdir unix_tests
+  192  cd unix_tests/
+  193  touch trybe.txt
+  194  mv trybe.txt trybe-g.txt
+  195  clear
+  196  mkdir backup
+  197  cp trybe-g.txt trybe-backup.txt
+  198  lçs
+  199  ls
+  200  mv trybe-backup.txt backup/
+  201  ls
+  202  mkdir backup2
+  203  ls
+  204  cd backup
+  205  mv trybe-backup.txt ../backup2
+  206  ls
+  207  cd ..
+  208  ls
+  209  ls *
+  210  rmdir backup
+  211  mv backup2 backup
+  212  ls
+  213  pwd
+  214  ls *
+  215  rm -r backup
+  216  ls
+  217  clear
+  218  touch skills.txt
+  219  cat > skills.txt 
+  220  head -5 skills.txt 
+  221  tail -4 skills.txt
+  222  rm *.txt
+  223  ls
+  224  exit
+  225  cd /
+  226  ls
+  227  cd home
+  228  cd nimense/
+  229  cd Documentos/Trybe/Bloco-01/exercicios/dia-1.3/unix_tests/
+  230  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  231  ls
+  232  cat countries.txt 
+  233  clear
+  234  less countries.txt 
+  235  grep Brazil countries.txt 
+  236  grep -i brazil
+  237  grep -i brazil countries.txt 
+  238  touch phrases.txt 
+  239  cat > phrases.txt 
+  240  grep -v fos
+  241  grp -v fox countries.txt 
+  242  grep -v fox countries.txt 
+  243  grep -v fox phrases.txt 
+  244  wc -w phrases.txt 
+  245  wc -l phrases.txt 
+  246  touch empty.tbt empty.pdf
+  247  ls
+  248  ls *.txt
+  249  ls *.txt *tbt
+  250  man ls
+  251  man history 
+  252  hixtory
+  253  history 
