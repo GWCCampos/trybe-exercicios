@@ -3,3 +3,5 @@
 - CSS
 - NodeJS
 - HTML
+- React
+- Pyton
