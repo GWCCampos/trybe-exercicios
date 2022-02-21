@@ -1,7 +1,14 @@
-- Autoliderança
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Autoliderança  
 - JavaScript
-- CSS
+- CSS           
 - NodeJS
 - HTML
 - React
 - Pyton
+- Comunicação
+- Git
+- Internet
