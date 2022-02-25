@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <style>
-       body{
+
+      body{
         font-size: 16px;
         line-height: 60px;
       }
@@ -26,7 +21,6 @@
         font-style: oblique;
       }
 
-      /* Classes */
 
       .Cor-fundo{
         background-color : aquamarine;
@@ -35,15 +29,3 @@
       .sublinhado{
         text-decoration: underline;
       }
-    </style>
-  </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
-    <p class="Cor-fundo">Qual é a sua cor favorita?</p>
-    <ul class="Cor-fundo sublinhado">
-      <li style="background-color: yellow;">Amarelo</li>
-      <li style="background-color: red;">Vermelho</li>
-      <li style="background-color: brown;">Marrom</li>
-    </ul>
-  </body>
-</html>
