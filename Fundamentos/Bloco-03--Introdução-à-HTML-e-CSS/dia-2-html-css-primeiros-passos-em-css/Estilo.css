@@ -1,0 +1,31 @@
+
+      body{
+        font-size: 16px;
+        line-height: 60px;
+      }
+
+      h1 {
+        font-size: 65px;
+        color: orange;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      ul{
+        background-color: blue;
+        line-height: 40px;
+      }
+
+      p{
+        font-weight: 600;
+        font-size: 3em;
+        font-style: oblique;
+      }
+
+
+      .Cor-fundo{
+        background-color : aquamarine;
+      }
+
+      .sublinhado{
+        text-decoration: underline;
+      }
