@@ -20,9 +20,47 @@ padding: 20px;
 /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
 .margin {
 margin: 30px;
-}
+  }
 
 /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
 .border {
   border: 5px solid black;
+
+}
+.super-mario {
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+
+}
+.goomba {
+  width: 100px;
+  position: absolute;
+  top: 400px;  
+  left: 100px;
+}
+.baloon {
+ position: absolute;
+ z-index: 2;
+ left: 261px;
+ top: 260px;
+
+ 
+}
+
+.speach {
+  font-size: 25px;
+  position: absolute;
+  z-index: 3;
+  left: 285px;
+  top: 300px;
+}
+
+.bowser {
+  width: 200px;
+  position: absolute;
+  z-index: 4;
+  left: 550px;
+  top: 400px;
+  
 }
