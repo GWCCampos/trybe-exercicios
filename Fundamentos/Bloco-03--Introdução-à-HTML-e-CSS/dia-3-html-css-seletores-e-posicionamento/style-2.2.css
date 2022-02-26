@@ -1,0 +1,44 @@
+
+/* Seção-1- */
+
+div:nth-of-type(1) :hover{
+  background-color: #b9d7d9;
+}
+
+div:nth-of-type(2) :hover{
+background-color: #668284;
+color: white;
+}
+
+div:nth-of-type(3) :hover{
+background-color: #2a2829;
+color: white;
+}
+
+div:nth-of-type(4) :hover{
+background-color: #493736;
+color: white;
+}
+
+div:nth-of-type(5) :hover{
+  background-color: #7b3b3b;
+  color: white;
+}
+  
+/* Seção-2 */
+
+div h3{
+  font-family: serif;
+  text-decoration: underline;
+  text-decoration-color: seagreen;
+  font-weight: bold;
+  }
+
+
+div:nth-of-type(3) h3{
+font-size: 150%;
+}
+
+div:nth-of-type(2n+1) h3{
+  font-style: italic;
+}
