@@ -1,0 +1,22 @@
+ 
+ h1, p{
+text-align: center;
+}
+
+ul, ol{
+  list-style: none
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-color: blue;
+}
+
+a:active{
+  color: aliceblue;
+}
