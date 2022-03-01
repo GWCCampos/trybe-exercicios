@@ -11,12 +11,15 @@ ul, ol{
 a{
   text-decoration: none;
   color: black;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 a:hover{
   background-color: blue;
+  color: azure;
 }
 
 a:active{
-  color: aliceblue;
+  color: yellow;
 }
