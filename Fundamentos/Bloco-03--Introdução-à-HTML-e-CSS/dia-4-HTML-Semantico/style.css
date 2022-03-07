@@ -49,11 +49,13 @@ header {
 #infos {
   float: left;
   margin-left: 350px;
+  margin-top: 10px;
 }
 
 #visao {
   display: inline-block;
   margin-left: 50px;
+  margin-top: 10px;
 }
 
 #soco {
