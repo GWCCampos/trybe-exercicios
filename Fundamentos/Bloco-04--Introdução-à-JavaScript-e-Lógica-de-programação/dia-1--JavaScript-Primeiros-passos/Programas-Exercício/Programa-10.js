@@ -10,29 +10,29 @@
 
 let peca = '';
 
-peca = 'peao'.toLowerCase(String);
+peca = 'peao';
 
-if (peca === 'peao') {
+if (peca.toLowerCase(String) === 'peao') {
   console.log('Um para Frente, ou dois pra frente se for o primeiro movimento e mata na diagonal')
 } 
 
-else if (peca === 'torre') {
+else if (peca.toLowerCase(String) === 'torre') {
   console.log('Para frente e para os lados')
 }
 
-else if (peca === 'cavalo') {
+else if (peca.toLowerCase(String) === 'cavalo') {
   console.log('Movimenta em L')
 }
 
-else if (peca === 'bispo') {
+else if (peca.toLowerCase(String) === 'bispo') {
   console.log('Move na diagonal')
 }
 
-else if (peca === 'rei') {
+else if (peca.toLowerCase(String) === 'rei') {
   console.log('Uma casa em todas as direções')
 }
 
-else if (peca === 'rainha') {
+else if (peca.toLowerCase(String) === 'rainha') {
   console.log('Todas as direções')
 }
 
