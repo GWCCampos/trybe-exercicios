@@ -1,20 +1,9 @@
-
+//Programa 6
+  //Faça um programa que retorne o maior de dois números.
+  //Defina no começo do programa duas constantes com os valores que serão comparados.
+ 
 const a = 1;
 const b = 2;
-
-//programa 1 ao 5
-
-console.log(a + b);
-
-console.log(a - b);
-
-console.log(a * b);
-
-console.log(a / b);
-
-console.log(a % b);
-
-//programa 6
 
 if (a > b) {
   console.log('o maior é', a, '(a)')
@@ -28,6 +17,3 @@ else if (b > a) {
 else {
   console.log('Algo tá errado')
 }
-
-//programa 7
-
