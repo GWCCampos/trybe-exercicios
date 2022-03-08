@@ -14,6 +14,10 @@ else if (b > a) {
   console.log('o maior é', b, '(b)') 
 }
 
+else if (a === b){
+  console.log('Não há maior entre esses, são todos iguais')
+}
+
 else {
   console.log('Algo tá errado')
 }
