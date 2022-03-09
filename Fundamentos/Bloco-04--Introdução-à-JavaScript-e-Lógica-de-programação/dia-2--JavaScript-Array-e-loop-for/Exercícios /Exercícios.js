@@ -3,7 +3,7 @@
 //contidos com a função console.log() ;
 
 console.log('Exercicio 1');
-console.log('')
+console.log('');
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
@@ -14,9 +14,9 @@ for (let numero of numbers){
 //Exercicio 2
 // Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
 
-console.log('')
+console.log('');
 console.log('Exercicio 2');
-console.log('')
+console.log('');
 
 let soma = 0;
 
@@ -25,16 +25,16 @@ for (let index = 0; index < numbers.length; index += 1){
   soma = calculo;
 };
 
-console.log(soma)
+console.log(soma);
 
 //Exercicio 3
 // Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
 // > A média aritmética é o resultado da soma de todos os elementos divido pelo número total de elementos.
 
 
-console.log('')
+console.log('');
 console.log('Exercicio 3');
-console.log('')
+console.log('');
 
 let media = soma / 2;
 
@@ -44,16 +44,65 @@ console.log(media);
 //Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, 
 //imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
 
-console.log('')
+console.log('');
 console.log('Exercicio 4');
-console.log('')
+console.log('');
 
-//media = 19, pra testar se estava funcionando
+//media = 19; , pra testar se estava funcionando
 
 if(media > 20){
-  console.log('Valor maior que 20')
+  console.log('Valor maior que 20');
 }
 
 else{
-  console.log('Valor menor que 20')
+  console.log('Valor menor que 20');
+};
+
+// Exercicio 5
+// Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+
+console.log('');
+console.log('Exercicio 5');
+console.log('');
+
+let maior = 1;
+
+for (let index = 0; index < numbers.length; index += 1) {
+   if (maior < numbers[index]) {
+    maior = numbers[index];
+   }
+
+   else {
+     maior = maior;
+   };
+};
+
+console.log(maior)
+
+//Exercicio 6
+// Descubra quantos valores ímpares existem no array e imprima o resultado.
+// Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado"
+
+console.log('');
+console.log('Exercicio 6');
+console.log('');
+
+let impar = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] % 2 != 0) {
+    impar += 1 ;
+    }
+
+    else {
+      impar = impar
+    };
+};
+
+if (impar > 0) {
+  console.log(impar)
 }
+
+else{
+  console.log('nenhum valor ímpar encontrado')
+};
