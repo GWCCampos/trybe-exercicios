@@ -126,3 +126,18 @@ for (let index = 0; index < numbers.length; index += 1) {
 };
 
 console.log(menor);
+
+// Exercicio 8
+// Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+
+console.log('');
+console.log('Exercicio 8');
+console.log('');
+
+let nArray = [];
+
+for (let index = 1; index < 26; index += 1) {
+  nArray.push(index)
+};
+
+console.log(nArray)
