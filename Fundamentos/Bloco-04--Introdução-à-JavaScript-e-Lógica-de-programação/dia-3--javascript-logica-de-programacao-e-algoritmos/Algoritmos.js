@@ -40,9 +40,19 @@ for (let i of wordR){
 console.log('A palavra ao contrário fica assim: ', reverse);
 
 // Exercicio 3
-// Faça um programa que retorne o maior de três números. Defina no começo do programa 
-// três constantes com os valores que serão comparados.
-
+// Considere o array de strings abaixo:
+// |let array = ['java', 'javascript', 'python', 'html', 'css'];|
+// Escreva dois algoritmos: um que retorne a maior palavra deste array e 
+// outro que retorne a menor. Considere o número de caracteres de cada palavra.
 console.log('');
 console.log('Exercicio 3');
+console.log('');
+
+
+
+//Exercicio 4
+// Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
+
+console.log('');
+console.log('Exercicio 4');
 console.log('');
