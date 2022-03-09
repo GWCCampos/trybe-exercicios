@@ -136,8 +136,24 @@ console.log('');
 
 let nArray = [];
 
-for (let index = 1; index < 26; index += 1) {
+for (let index = 0; index <= 25; index += 1) {
   nArray.push(index)
 };
 
 console.log(nArray)
+
+// Exercicio 9
+// Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+
+console.log('');
+console.log('Exercicio 9');
+console.log('');
+
+for (let index of nArray) {
+  console.log(nArray[index] / 2)
+};
+
+//Fim :D
+
+console.log('');
+console.log('Fim dos Exercícios :D');
