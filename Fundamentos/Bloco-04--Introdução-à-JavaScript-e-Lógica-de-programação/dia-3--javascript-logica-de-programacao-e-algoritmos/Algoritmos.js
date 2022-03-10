@@ -44,15 +44,55 @@ console.log('A palavra ao contrário fica assim: ', reverse);
 // |let array = ['java', 'javascript', 'python', 'html', 'css'];|
 // Escreva dois algoritmos: um que retorne a maior palavra deste array e 
 // outro que retorne a menor. Considere o número de caracteres de cada palavra.
+
 console.log('');
 console.log('Exercicio 3');
 console.log('');
 
+let array = ['java', 'javascript', 'python', 'html', 'css']
+let maior = array[0];
+let menor = array[0];
+let numC = 0;
 
+//Maior
+
+for (let i = 0; i < array.length; i += 1) {
+  let teste = array[i];
+  numC = 0;
+  for (let z of teste) {
+    if (z = String) { 
+      numC += 1; 
+    };
+    if (maior.length < numC) { 
+      maior = teste; 
+     }
+  };
+}; 
+
+console.log('A maior palavra é', maior)
+
+//Menor
+
+for (let i = 0; i < array.length; i += 1) {
+  let teste = array[i];
+  numC = 0;
+  for (let z of teste) {
+    if (z = String) { 
+      numC += 1; 
+    };
+    if (maior.length > numC) { 
+      menor = teste; 
+     }
+  };
+}; 
+
+console.log('A menor palavra é', menor)
 
 //Exercicio 4
-// Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
+// Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o
+// maior número primo entre 0 e 50.
 
 console.log('');
 console.log('Exercicio 4');
 console.log('');
+
