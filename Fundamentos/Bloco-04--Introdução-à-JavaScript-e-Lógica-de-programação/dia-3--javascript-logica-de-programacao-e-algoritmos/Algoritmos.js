@@ -49,7 +49,7 @@ console.log('');
 console.log('Exercicio 3');
 console.log('');
 
-let array = ['java', 'javascript', 'python', 'html', 'css']
+let array = ['java', 'javascript', 'python', 'html', 'css'];
 let maior = array[0];
 let menor = array[0];
 let numC = 0;
@@ -65,11 +65,12 @@ for (let i = 0; i < array.length; i += 1) {
     };
     if (maior.length < numC) { 
       maior = teste; 
-     }
+     };
   };
 }; 
 
-console.log('A maior palavra é', maior)
+console.log('A maior palavra é', maior);
+console.log('');
 
 //Menor
 
@@ -82,11 +83,11 @@ for (let i = 0; i < array.length; i += 1) {
     };
     if (maior.length > numC) { 
       menor = teste; 
-     }
+     };
   };
 }; 
 
-console.log('A menor palavra é', menor)
+console.log('A menor palavra é', menor);
 
 //Exercicio 4
 // Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o
@@ -96,3 +97,18 @@ console.log('');
 console.log('Exercicio 4');
 console.log('');
 
+let numBase = 0;
+let primo = [];
+
+for (let i = 0; i <= 50; i += 1) {
+  numBase = i;
+  if (numBase % 2 === 0 || numBase % 5 === 0 || numBase % 11 === 0) {
+    primo.push(numBase);
+  }
+
+  else if(numbase % 3 === 0){
+
+  }
+};
+
+console.log(primo);
