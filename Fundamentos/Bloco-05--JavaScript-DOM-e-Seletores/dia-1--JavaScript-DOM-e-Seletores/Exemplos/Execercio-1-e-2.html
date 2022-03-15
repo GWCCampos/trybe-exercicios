@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragraphs">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragraphs">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const titulo = document.getElementById('page-title');
+      titulo.innerText = "Howl's moving castle"
+      
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      
+      const paragraphDois = document.getElementById("second-paragraph");
+      paragraphDois.style.fontSize = '25px'; 
+      paragraphDois.style.color = 'white';
+      paragraphDois.style.backgroundColor = 'blue';
+      paragraphDois.style.marginLeft = '50%'
+      paragraphDois.style.maxWidth = '200px';
+      paragraphDois.style.padding = '10px';
+
+      const subTitulo = document.getElementById('subtitle');
+      subTitulo.innerText = 'melhor filme';
+      subTitulo.style.fontSize = '20px';
+
+      const paragrafos = document.getElementsByClassName('paragraphs');
+      paragrafos[0].style.backgroundColor = 'black';
+      paragrafos[0].style.maxWidth ='210px';
+
+      const subtitulo = document.getElementsByTagName("h4");
+       subtitulo[0].style.backgroundColor = 'red';
+       subtitulo[0].style.color = 'white';
+       subtitulo[0].style.maxWidth = '120px'
+       subtitulo[0].style.paddingLeft = '10px';
+        </script>
+  </body>
+</html>
