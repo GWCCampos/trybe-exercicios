@@ -31,3 +31,11 @@ filhoDoElemento.appendChild(filho);
 let acesso = document.getElementById('filhoTres');
 
 console.log(acesso.parentElement.nextElementSibling);
+
+let remove = document.querySelector('#paiDoPai');
+let compar = remove.children;
+ for (let i = 0; i <= compar.length; i += 1) {
+  if (compar[i].id !== 'pai') {
+     remove.removeChild(id = compar[i]);
+   }
+ };
