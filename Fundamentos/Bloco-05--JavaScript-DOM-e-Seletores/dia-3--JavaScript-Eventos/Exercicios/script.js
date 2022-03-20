@@ -15,21 +15,21 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
-function liCreate(){
+function liCreate() {
   const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
   const daysList = document.getElementById('days');
 
-  for(let i = 0; i < dezDaysList.length; i += 1) {
+  for (let i = 0; i < dezDaysList.length; i += 1) {
     const dias = dezDaysList[i];
     const dianovo = document.createElement('li')
     dianovo.innerText = dias;
-    
+
     daysList.appendChild(dianovo);
     dianovo.classList.add('day');
     if (dezDaysList[i] === 24 || dezDaysList[i] === 25 || dezDaysList[i] === 31) {
       dianovo.classList.add('Holiday')
     }
-    if (dezDaysList[i] === 4 || dezDaysList[i] === 11 || dezDaysList[i] ===  18 || dezDaysList[i] === 25) {
+    if (dezDaysList[i] === 4 || dezDaysList[i] === 11 || dezDaysList[i] === 18 || dezDaysList[i] === 25) {
       dianovo.classList.add('Friday');
     }
   }
@@ -37,7 +37,7 @@ function liCreate(){
 
 liCreate();
 
-function HolidayB(Feriados){
+function HolidayB(Feriados) {
   const botao = document.createElement('button');
   botao.innerText = Feriados;
   const local = document.querySelector('.buttons-container');
@@ -48,6 +48,30 @@ function HolidayB(Feriados){
 
 HolidayB('Feriados');
 
-function dayF(Sextafeira) {
+function dinamOnHB() {
+  const botao = document.querySelector('#btn-holiday')
+  botao.addEventListener('click', function () {
+    console.log('foi pressionado')
+    const dias = document.getElementById('days').children;
+    for (let i = 0; i < dias.length; i += 1) {
+      const feriado = dias[i].classList;
+      for (let z = 0; z < feriado.length; z += 1) {
+        console.log(feriado[z]);
+      if (feriado[z].includes('Holiday') && dias[i].style.backgroundColor !== 'red') {
+          dias[i].style.backgroundColor = 'red'
+          dias[i].style.color = 'white';
+        } else if (feriado[z].includes('Holiday') && dias[i].style.backgroundColor === 'red')
+        dias[i].style.backgroundColor = 'rgb(238,238,238)';
+        dias[i].style.color = 'black';}
+      }
+    }
+  )
+};
+
+dinamOnHB();
+
+
+
+function dayE(Sextafeira) {
 
 };
