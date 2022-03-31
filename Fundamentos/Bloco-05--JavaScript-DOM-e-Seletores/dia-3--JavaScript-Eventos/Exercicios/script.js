@@ -50,26 +50,26 @@ HolidayB('Feriados');
 
 function dinamOnHB() {
   const botao = document.querySelector('#btn-holiday')
-  botao.addEventListener('click', function () {
-    console.log('foi pressionado')
+  botao.addEventListener('click', function() {
     const dias = document.getElementById('days').children;
     for (let i = 0; i < dias.length; i += 1) {
       const feriado = dias[i].classList;
       for (let z = 0; z < feriado.length; z += 1) {
-        console.log(feriado[z]);
       if (feriado[z].includes('Holiday') && dias[i].style.backgroundColor !== 'red') {
           dias[i].style.backgroundColor = 'red'
           dias[i].style.color = 'white';
-        } else if (feriado[z].includes('Holiday') && dias[i].style.backgroundColor === 'red')
+        } else if (feriado[z].includes('Holiday') && dias[i].style.backgroundColor === 'red') {
         dias[i].style.backgroundColor = 'rgb(238,238,238)';
-        dias[i].style.color = 'black';}
+        dias[i].style.color = 'rgb(119, 119, 119)';} 
+          dias[i] = dias [i];
+        
       }
     }
+  }
   )
 };
 
 dinamOnHB();
-
 
 
 function dayE(Sextafeira) {
