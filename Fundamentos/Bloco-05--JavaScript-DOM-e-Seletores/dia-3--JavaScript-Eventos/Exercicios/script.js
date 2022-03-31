@@ -37,9 +37,9 @@ function liCreate() {
 
 liCreate();
 
-function HolidayB(Feriados) {
+function HolidayB(param1) {
   const botao = document.createElement('button');
-  botao.innerText = Feriados;
+  botao.innerText = param1;
   const local = document.querySelector('.buttons-container');
 
   local.appendChild(botao);
@@ -71,7 +71,33 @@ function dinamOnHB() {
 
 dinamOnHB();
 
+const container = document.querySelector('.buttons-container')
 
-function dayE(Sextafeira) {
-
+function dayF(param1) {
+  const btnF = document.createElement('button');
+  btnF.id = 'btn-friday';
+  btnF.innerText = param1;
+  btnF.name = param1;
+  container.appendChild(btnF);
 };
+
+dayF('Sexta-feira');
+
+function dianmOnF() {
+  const sF = document.querySelectorAll('.Friday');
+  for (let i = 0; i < sF.length; i += 1) {
+    if (sF[i].style.backgroundColor !== 'green') {
+      sF[i].style.setProperty('background-Color', 'green');
+      sF[i].style.color = 'white';
+    }
+     else if (sF[i].style.backgroundColor === 'green') {
+       sF[i].style.backgroundColor = 'transparent';
+       sF[i].style.color = '#777';
+    }
+  }
+}
+
+const btnF = document.getElementById('btn-friday');
+
+btnF.addEventListener('click', dianmOnF)
+
