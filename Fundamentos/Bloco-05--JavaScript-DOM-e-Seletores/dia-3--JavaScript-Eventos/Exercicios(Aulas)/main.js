@@ -16,24 +16,30 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // 2. Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 // 2.1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 
-function addclass(param){
-  param.classList.remove('tech');
- param.addEventListener('click', function() {
- if (param.className === 'tech') {
-  param.classList.remove('tech');
-  } else {param.classList.add('tech')}
-  }
-  )};
-  addclass(firstLi);
-  addclass(secondLi);
-  addclass(thirdLi);
-  // Daqui pra baixo foram testes, servem apenas para estudo.
+const container = document.querySelector('.container').children;
+function addclass(event) {
+  event.addEventListener('click', function () {
+    for (let i = 0; i < container.length; i += 1) {
+      for (let i = 0; i < container.length; i += 1) {
+        if (container[i].className === 'tech') {
+          container[i].classList.remove('tech');
+        }
+      }
+    }
+    event.classList.add('tech');
+    input.value = '';
+  })
+};
+addclass(firstLi);
+addclass(secondLi);
+addclass(thirdLi);
+// Daqui pra baixo foram testes, servem apenas para estudo.
 // function addclass(param){
 // if (param.className === 'tech') {
 //   param.classList.remove('tech');
 //   } else {param.classList.add('tech')}
 //   };
-  
+
 // firstLi.addEventListener("click", function (){ 
 //   if (firstLi.className === 'tech') {
 //    firstLi.classList.remove('tech');
@@ -63,11 +69,17 @@ function addclass(param){
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 
+function alterarTexto() {
+  let mudar = document.querySelector('.tech');
+  mudar.textContent = input.value;
+}
 
+input.addEventListener('keyup', alterarTexto);
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
+
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
