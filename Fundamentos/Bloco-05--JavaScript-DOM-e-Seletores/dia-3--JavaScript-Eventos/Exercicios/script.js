@@ -24,6 +24,7 @@ function liCreate() {
     const dias = dezDaysList[i];
     const dianovo = document.createElement('li')
     dianovo.innerText = dias;
+    dianovo.style.color = 'rgb(119, 119, 119)';
 
     daysList.appendChild(dianovo);
     dianovo.classList.add('day');
@@ -117,7 +118,6 @@ const mytask = document.querySelector('.my-tasks')
 function criaTarefa(param) {
   const tarefa = document.createElement('span');
   tarefa.innerText = param;
-  tarefa.style.display = 'block';
   mytask.appendChild(tarefa)
 }
 
@@ -131,3 +131,28 @@ function descricao(param) {
 }
 
 descricao('green');
+
+function seleciona(event) {
+  const evento = event.target;
+  if (evento.className === 'task') {
+  event.target.className = 'task-selected';
+  } else if (evento.className === 'task-selected') { 
+    evento.className = 'task'
+  } else {
+    evento.className = evento.className
+  }
+}
+
+mytask.addEventListener('click', seleciona);
+
+function mudaCor(event) {
+  const evento = event.target;
+  const div = document.querySelector('.task-selected');
+  if (evento.classList.contains('day') && evento.style.color !== 'rgb(119, 119, 119)') {
+  evento.style.color = 'rgb(119, 119, 119)';
+  } else if (evento.classList.contains('day')) { 
+    evento.style.color = div.style.backgroundColor;
+  }
+}
+
+daysList.addEventListener('click', mudaCor);
