@@ -87,10 +87,10 @@ dayF('Sexta-feira');
 function dianmOnF() {
   const sF = document.querySelectorAll('.Friday');
   for (let i = 0; i < sF.length; i += 1) { 
-     if (sF[i].style.border !== '1px solid blue') {
-      sF[i].style.setProperty('border', '1px solid blue');
+     if (sF[i].style.border !== '1px solid green') {
+      sF[i].style.setProperty('border', '1px solid green');
     }
-     else if (sF[i].style.border === '1px solid blue') {
+     else if (sF[i].style.border === '1px solid green') {
       sF[i].style.border = '';
     }
   }
@@ -112,8 +112,9 @@ function zoomOut(event) {
 daysList.addEventListener('mouseover', zoomIn);
 daysList.addEventListener('mouseout', zoomOut);
 
+const mytask = document.querySelector('.my-tasks')
+
 function criaTarefa(param) {
-  const mytask = document.querySelector('.my-tasks')
   const tarefa = document.createElement('span');
   tarefa.innerText = param;
   tarefa.style.display = 'block';
@@ -121,3 +122,12 @@ function criaTarefa(param) {
 }
 
 criaTarefa('cozinhar');
+
+function descricao(param) {
+  const cor = document.createElement('div');
+  cor.style.backgroundColor = param;
+  cor.className = 'task';
+  mytask.appendChild(cor);
+}
+
+descricao('green');
