@@ -15,9 +15,10 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
+const daysList = document.getElementById('days');
+
 function liCreate() {
   const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
-  const daysList = document.getElementById('days');
 
   for (let i = 0; i < dezDaysList.length; i += 1) {
     const dias = dezDaysList[i];
@@ -85,14 +86,12 @@ dayF('Sexta-feira');
 
 function dianmOnF() {
   const sF = document.querySelectorAll('.Friday');
-  for (let i = 0; i < sF.length; i += 1) {
-    if (sF[i].style.backgroundColor !== 'green') {
-      sF[i].style.setProperty('background-Color', 'green');
-      sF[i].style.color = 'white';
+  for (let i = 0; i < sF.length; i += 1) { 
+     if (sF[i].style.border !== '1px solid blue') {
+      sF[i].style.setProperty('border', '1px solid blue');
     }
-     else if (sF[i].style.backgroundColor === 'green') {
-       sF[i].style.backgroundColor = 'transparent';
-       sF[i].style.color = '#777';
+     else if (sF[i].style.border === '1px solid blue') {
+      sF[i].style.border = '';
     }
   }
 }
@@ -100,4 +99,16 @@ function dianmOnF() {
 const btnF = document.getElementById('btn-friday');
 
 btnF.addEventListener('click', dianmOnF)
+
+function zoomIn(event) {
+  event.target.style.fontSize = '30px';
+  event.target.style.transition = 'font-size 500ms';
+}
+
+function zoomOut(event) {
+  event.target.style.fontSize = '20px';
+}
+
+daysList.addEventListener('mouseover', zoomIn);
+daysList.addEventListener('mouseout', zoomOut);
 
