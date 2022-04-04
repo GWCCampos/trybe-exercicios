@@ -156,3 +156,38 @@ function mudaCor(event) {
 }
 
 daysList.addEventListener('click', mudaCor);
+
+function createUl() {
+  const containerTask = document.querySelector('.input-container');
+  const compromisso = document.createElement('ul');
+  compromisso.id = 'meus-compromissos';
+  containerTask.appendChild(compromisso);
+}
+
+createUl();
+
+const btnAdd = document.getElementById('btn-add');
+const input = document.getElementById('task-input');
+
+function adiciona() {
+  const lista = document.getElementById('meus-compromissos');
+  const item = document.createElement('li');
+  const estilo = item.style;
+  estilo.listStyleType = 'none';
+  if (input.value === '') {
+    window.alert('Erro, precisa de texto');
+  } else {
+    item.innerText = input.value;
+    input.value = '';
+    lista.appendChild(item);
+  }
+}
+
+function adicionaEnter(event) {
+  if (event.key === 'Enter') {
+    adiciona();
+  }
+};
+
+btnAdd.addEventListener('click', adiciona);
+input.addEventListener('keydown', adicionaEnter);
