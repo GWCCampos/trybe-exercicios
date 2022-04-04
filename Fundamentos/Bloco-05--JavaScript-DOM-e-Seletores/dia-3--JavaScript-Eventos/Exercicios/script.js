@@ -112,3 +112,12 @@ function zoomOut(event) {
 daysList.addEventListener('mouseover', zoomIn);
 daysList.addEventListener('mouseout', zoomOut);
 
+function criaTarefa(param) {
+  const mytask = document.querySelector('.my-tasks')
+  const tarefa = document.createElement('span');
+  tarefa.innerText = param;
+  tarefa.style.display = 'block';
+  mytask.appendChild(tarefa)
+}
+
+criaTarefa('cozinhar');
