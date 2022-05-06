@@ -1,0 +1,21 @@
+.header {
+  margin-top: 0px;
+}
+
+.titulos {
+  text-align: center;
+  color: white;
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+.divs {
+  width: 400px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.pai {
+  display: flex;
+  padding: 10px;
+}
