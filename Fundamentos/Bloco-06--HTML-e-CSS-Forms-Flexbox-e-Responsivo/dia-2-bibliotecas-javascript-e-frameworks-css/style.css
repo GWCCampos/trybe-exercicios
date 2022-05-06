@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  font-size: 25px;
+}
+
+#principal {
+  width: 600px;
+}
+
+.label {
+  display: inline;
+  margin: 10px;
+}
+
+label, #inputNc, #inputEmail, #textoArea, #data, #concordo1, #concordo2 {
+  display: block;
+};
