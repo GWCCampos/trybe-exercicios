@@ -1,0 +1,15 @@
+.pokemonDiv{ 
+  display: inline-block;
+  border: 1px solid rgb(54, 54, 54);
+  background-color: beige;
+  padding: 15px;
+  margin: 10px;
+}
+
+.pokemonDiv, p{
+  font-size: 50px;
+}
+
+.imagem{
+  width: 400px;
+}
